@@ -1,0 +1,26 @@
+{
+    "name": "talentasia/bootforms",
+    "description": "Form Builder with some Bootstrap specific conveniences.",
+    "authors": [
+        {
+            "name": "Tho Nguyen",
+            "email": "thosuperman@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "talentasia/form": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "mockery/mockery": "0.9.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "TalentAsia\\BootForms": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
